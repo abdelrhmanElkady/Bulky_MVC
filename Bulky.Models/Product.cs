@@ -36,6 +36,6 @@ namespace Bulky.Models
         [ForeignKey("CategoryId")]
         public Category? Category { get; set; }
 
-        public List<ProductImage> ProductImages { get; set; } = new();
+        //public List<ProductImage> ProductImages { get; set; } = new();
     }
 }
